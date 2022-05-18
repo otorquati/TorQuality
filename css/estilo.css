@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+/* Folha de Estilos da TorQuality Consultoria */
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+@font-face {
+  font-family: 'Digitalt';
+  src: url(https://www.dafont.com/pt/search.php?q=digital);
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+:root{
+  /* Paleta de Cores do Site */
+  --cor01:#B5AFFA;
+  --cor02:#2B1BE0;
+  --cor03:#2014AD;
+  --cor04:#130C61;
+  --cor05:#130C61;
+
+  --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --font-destaque: 'Digitalt', cursive;
+}
+body{
+  background-color: var(--cor01);
+}
+header{
+  background-color:var(--cor03);
+  font-family: 'Digitalt' cursive;
+  color:dodgerblue;
+  text-align: center;
+  height: 50px;
+  padding: 25px;
+}
+nav{
+  background-color: var(--cor03);
+  color: ;
+  margin: 20px 5px 20px 5px;
+}
