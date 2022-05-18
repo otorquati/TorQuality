@@ -12,6 +12,7 @@
 }
 :root{
   /* Paleta de Cores do Site */
+  --cor00:#9e9e28;
   --cor01:#B5AFFA;
   --cor02:#2B1BE0;
   --cor03:#2014AD;
@@ -23,17 +24,61 @@
 }
 body{
   background-color: var(--cor01);
+  font-family: Arial, Helvetica, sans-serif;
 }
 header{
-  background-color:var(--cor03);
+  background-image: linear-gradient(var(--cor01),var(--cor05)) ;
   font-family: 'Digitalt' cursive;
-  color:dodgerblue;
+  font-size: 1.5em;
+  text-shadow:2px 2px 5px rgba(0, 0, 0, 0.61);
+  color:var(--cor01);
   text-align: center;
-  height: 50px;
+  height: 70px;
   padding: 25px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.418);
+}
+header p{
+  font-size: 1.2em;
+  text-shadow:2px 2px 5px rgba(0, 0, 0, 0.623);
 }
 nav{
-  background-color: var(--cor03);
-  color: ;
-  margin: 20px 5px 20px 5px;
+  background-color: var(--cor05);
+  color: var(--cor00);
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.301);
+  
+}
+nav a{
+  color: var(--cor00);
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:hover{
+  background-color: var(--cor01);
+  color: var(--cor04);
+  border-radius: 5px;
+}
+main{
+  background-color: white;
+  text-align: justify;
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 20px 0px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.301);
+}
+footer{
+  background-color: var(--cor05);
+  padding: 10px;
+  color: white;
+  text-align:right;
+  margin: 30px 0px 5px 0px;
+
+}
+p.about{
+  text-align: left;
+  color: var(--cor04);
 }
