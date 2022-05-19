@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Digitalt';
-  src: url(https://www.dafont.com/pt/search.php?q=digital);
+  src: url(../fonts/Digitalt.ttf) format('truetype'), url(../fonts/Digitalt.otf) format('opentype');
 }
 *{
   margin: 0px;
@@ -33,10 +33,10 @@ header{
   min-height: 90px;
 }
 header h1{
-  font-family: 'Digitalt' cursive;
-  color:var(--cor00);
+  font-family: var(--font-destaque);
+  color:var(--cor01);
   margin: auto;
-  font-size: 1.5em;
+  font-size: 3em;
   text-shadow:2px 2px 5px rgba(0, 0, 0, 0.61);
   padding-bottom: 20px;
 }
