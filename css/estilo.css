@@ -4,7 +4,12 @@
 
 @font-face {
   font-family: 'Digitalt';
-  src: url(../fonts/Digitalt.ttf) format('truetype'), url(../fonts/Digitalt.otf) format('opentype');
+  src: url(../fonts/Digitalt.ttf) format('truetype'), 
+      url(../fonts/Digitalt.otf) format('opentype');
+}
+@font-face {
+  font-family: 'torquality';
+  src: url(/fonts/Anybody-Italic-VariableFont_wdth\,wght.ttf) format('truetype');
 }
 *{
   margin: 0px;
@@ -21,6 +26,7 @@
 
   --font-padrao: Arial, Verdana, Helvetica, sans-serif;
   --font-destaque: 'Digitalt', cursive;
+  --font-torquality: 'torquality', cursive;
 }
 body{
   background-color: var(--cor01);
@@ -33,7 +39,7 @@ header{
   min-height: 90px;
 }
 header h1{
-  font-family: var(--font-destaque);
+  font-family: var(--font-torquality);
   color:var(--cor01);
   margin: auto;
   font-size: 3em;
@@ -41,7 +47,7 @@ header h1{
   padding-bottom: 20px;
 }
 header p{
-  font-family: var(--font-padrao);
+  font-family: var(--font-torquality);
   font-size: 1.2em;
   color:var(--cor01);
   text-shadow:2px 2px 5px rgba(0, 0, 0, 0.623);
