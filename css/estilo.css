@@ -17,12 +17,12 @@
 }
 :root{
   /* Paleta de Cores do Site */
-  --cor00:#9e9e28;
-  --cor01:#B5AFFA;
-  --cor02:#2B1BE0;
-  --cor03:#2014AD;
-  --cor04:#130C61;
-  --cor05:#130C61;
+  --cor00:#D1AA1D;
+  --cor01:#6774eb;
+  --cor02:#1d2fd1;
+  --cor03:#16249e;
+  --cor04:#181d52;
+  --cor05:#0b1252;
 
   --font-padrao: Arial, Verdana, Helvetica, sans-serif;
   --font-destaque: 'Digitalt', cursive;
@@ -40,7 +40,7 @@ header{
 }
 header h1{
   font-family: var(--font-torquality);
-  color:var(--cor01);
+  color:rgb(206, 204, 183);
   margin: auto;
   font-size: 3em;
   text-shadow:2px 2px 5px rgba(0, 0, 0, 0.61);
@@ -97,8 +97,29 @@ footer{
   text-align:right;
   margin: 30px 0px 5px 0px;
 }
+/* ******************************************
+  Configurações do Sobre
+  ******************************************
+  */
 p.about{
+  font-family: var(--font-torquality);
+  font-size: 1.5em;
+  color: var(--cor00);
   text-align: left;
-  color: var(--cor04);
 }
+main.about{
+  margin: auto;
+  margin-top: 10px;
+
+}
+main.about h2{
+  background-image: linear-gradient(to right, var(--cor05),white);
+  color: cornsilk;
+  text-indent: 30px;
+}
+main.about article p{
+  padding: 10px;
+  margin: 10px
+}
+
 
