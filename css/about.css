@@ -63,7 +63,7 @@ header p{
   margin: auto;
   padding-bottom: 10px;
 }
-main{
+section{
   background-color: white;
   text-align: justify;
   max-width: 800px;
@@ -73,24 +73,47 @@ main{
   padding: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 20px 0px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);
 }
-main h2{
+section h2{
   background-image: linear-gradient(to right, var(--cor05),white);
   color: var(--cor08);
   text-indent: 30px;
 }
-main article p{
+section p{
   padding: 10px;
   margin: 10px
 }
 footer{
-  background-color: var(--cor05);
+  max-width: 100vw;
+  background-color: var(--cor01);
   padding: 10px;
   color: var(--cor08);
-  text-align:right;
+  /*text-align:right;*/
   margin: 30px 0px 5px 0px;
 }
-
+footer.about a{
+  display:inline-block;
+  background-color: gray;
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px black;
+  color: lightgray;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 1px 5px black;
+}
+footer.about p{
+  display: inline-block;
+  width: 85vw;
+  margin-left: 2vw;
+  padding: 1vw;
+  position: absolute;
+  text-align: right;
+  border: 1px solid lightgrey;
+  color: var(--cor08);
+}
 
   

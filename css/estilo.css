@@ -76,26 +76,39 @@ nav a:hover{
   color: var(--cor04);
   border-radius: 5px;
 }
-main{
+section{
   background-color: white;
   text-align: justify;
   max-width: 800px;
   min-width: 300px;
   margin: auto;
+  margin-bottom: 20px;
   padding: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
   border-radius: 20px 0px;
-  
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
 }
 main p{
   font-size: 1em;
   text-align: justify;
 }
-footer{
-  background-color: var(--cor05);
-  padding: 10px;
+section h2{
+  background-image: linear-gradient(to right, var(--cor05),white);
   color: var(--cor08);
-  text-align:right;
-  margin: 30px 0px 5px 0px;
+  text-indent: 30px;
 }
+section p{
+  padding: 10px;
+  margin: 10px
+}
+footer p{
+  margin: 30px;
+  padding: 10px;
+  text-align: right;
+  border: 1px solid lightgrey;
+  color: var(--cor08);
+}
+
+
+
