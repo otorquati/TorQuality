@@ -109,6 +109,27 @@ footer p{
   border: 1px solid lightgrey;
   color: var(--cor08);
 }
-
+.tc176{
+  margin: 10px;
+}
+.tc176 a{
+  display:block;
+  margin-bottom: 30px;
+}
+.tc176 iframe{
+  width: 500px;
+  height: 600px;
+  scroll-margin: auto;
+  border: 1px solid #000;
+}
+.tc207 a{
+  display:block;
+}
+.tc207 iframe{
+  width: 500px;
+  height: 600px;
+  scroll-margin: auto;
+  border: 1px solid #000;
+}
 
 
