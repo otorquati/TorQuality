@@ -1,8 +1,9 @@
-@charset "UTF-8"
+@charset "UTF-8";
 /* ******************************************
   Configurações do Sobre
   ******************************************
-  */@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+  */
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
 
 @font-face {
   font-family: 'Digitalt';
