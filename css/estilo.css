@@ -75,22 +75,36 @@ header p{
   margin: auto;
   padding-bottom: 10px;
 }
+i#burguer{
+  background-color: var(--cor05);
+  color: var(--cor08);
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
 
-nav{
+i#burguer:hover{
+  background-color: var(--cor01);
+  color: var(--cor00);
+}
+nav#menu {
   background-color: var(--cor05);
   color: var(--cor00);
   padding: 10px;
   margin: 0px 0px 20px 0px;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.301); 
+  display: none;
 }
 
-nav a{
+nav#menu a{
   color: var(--cor00);
   text-decoration: none;
   padding: 10px;
+  text-align: center;
+  display: block;
 }
 
-nav a:hover{
+nav#menu a:hover{
   background-color: var(--cor01);
   color: var(--cor04);
   border-radius: 5px;
@@ -118,6 +132,7 @@ section {
   min-width: 300px;
   margin: auto;
   margin-bottom: 20px;
+  margin-top: 20px;
   padding: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -171,6 +186,17 @@ footer p{
     border-radius: 20px 0px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
   }
+  i#burguer{
+    background-color: var(--cor05);
+    color: var(--cor08);
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav#menu a {
+    display: block;
+  }
 }
 
 /* Tablet */
@@ -187,6 +213,18 @@ footer p{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
     
   }
+  i#burguer{
+    background-color: var(--cor05);
+    color: var(--cor08);
+    display: block;
+    text-align: left;
+    padding: 10px;
+  }
+
+  nav#menu a{
+    display: inline-block;
+  }
+ 
 }
 /* Desktop ou Laptops */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -202,6 +240,19 @@ footer p{
     border-radius: 20px 0px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
   }
+
+  i#burguer{
+    background-color: var(--cor05);
+    color: var(--cor08);
+    display: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav#menu a{
+    display: inline-block;
+  }
+ 
 }
 
 /* Telas Grandes: Monitores e TVs */
@@ -218,6 +269,17 @@ footer p{
     border-radius: 20px 0px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
   }
+
+  i#burguer{
+    background-color: var(--cor05);
+    color: var(--cor08);
+    display: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav#menu a{
+    display: inline-block;
+  }
+
 }
-
-

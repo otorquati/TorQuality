@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <title>Consultoria da Qualidade</title>
   <link rel="stylesheet" href="css/estilo.css">
 </head>
@@ -12,7 +14,9 @@
     <h1>TorQuality Consulting</h1>
     <p>Contribuindo para a Melhoria da Gestão da Qualidade</p>
 </header>
-<nav>
+  <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+<nav id="menu">
+  
   <a href="#">Home</a>
   <a href="#">Requisitos</a>
   <a href="#">Registros Q</a>
@@ -39,4 +43,11 @@
   <p>Desenvolvido por TorQuality Consulting (c)2022</p>
 </footer>
 </body>
+<script>
+  function clickMenu(){
+    if (menu.style.display=='block') {
+      menu.style.display='none'
+    } else {menu.style.display='block'}
+  }
+</script>
 </html>
