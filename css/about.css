@@ -95,11 +95,14 @@ footer{
   /*text-align:right;*/
   margin: 30px 0px 5px 0px;
 }
-footer.about a{
-  display:inline-block;
+footer.about > a.botao{
+  float: left;
+  width: 15%;
+  height: 100%;
+  /*display:inline-block;*/
   background-color: gray;
   padding: 10px;
-  width: 60px;
+  /*width: 60px;*/
   text-align: center;
   text-decoration: none;
   text-shadow: 1px 1px 3px black;
@@ -108,11 +111,14 @@ footer.about a{
   box-shadow: 1px 1px 5px black;
 }
 footer.about p{
+  float: right;
+  width: 80%;
+  /*height: 100%;
   display: inline-block;
   width: 85vw;
-  margin-left: 2vw;
-  padding: 1vw;
-  position: absolute;
+  margin-left: 2vw;*/
+  padding: 10px;
+  position:relative;
   text-align: right;
   border: 1px solid lightgrey;
   color: var(--cor08);
