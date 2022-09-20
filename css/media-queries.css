@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* Configurções para Media Queries */
+/* Celulares */ 
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  section {
+    background-color: lightgray;
+    text-align: justify;
+    max-width: 600px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
+  }
+  i#burguer{
+    background-color: var(--cor05);
+    color: var(--cor08);
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav#menu a {
+    display: block;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  section {
+    background-color: lightyellow;
+    max-width: 90vw;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
+    
+  }
+  i#burguer{
+    background-color: var(--cor05);
+    color: var(--cor08);
+    display: block;
+    text-align: left;
+    padding: 10px;
+  }
+
+  nav#menu a{
+    display: inline-block;
+  }
+ 
+}
+/* Desktop ou Laptops */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  section {
+    background-color: lightyellow;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
+  }
+
+  i#burguer{
+    background-color: var(--cor05);
+    color: var(--cor08);
+    display: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav#menu {
+    display: block;
+  }
+
+  nav#menu a{
+    display: inline-block;
+  }
+ 
+}
+
+/* Telas Grandes: Monitores e TVs */
+@media screen and (min-width: 1200px) {
+  section {
+    background-color: lightyellow;
+    text-align: justify;
+    max-width: 60vw;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
+  }
+
+  i#burguer{
+    background-color: var(--cor05);
+    color: var(--cor08);
+    display: none;
+    text-align: center;
+    padding: 10px;
+  }
+
+  nav#menu {
+    display: block;
+  }
+
+  nav#menu a{
+    display: inline-block;
+  }
+}
