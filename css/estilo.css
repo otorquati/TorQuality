@@ -206,3 +206,23 @@ ol > li {
 ul >li {
     margin-left: 40px;
 }
+table#Forms{
+  width: 700px;
+  border-collapse: collapse;
+  margin: auto;
+  box-shadow: 2px 2px 5px black;
+  position: relative;
+}
+thead>tr>th{
+  background-color: var(--cor00);
+}
+tbody>tr:nth-child(even){
+  background-color: var(--cor08);
+}
+th, tr, td {
+  border: 1px solid gray;
+  padding: 5px;
+}
+td.Item{
+  text-align: center;
+}
