@@ -8,7 +8,7 @@
 @font-face {
   font-family: 'Digitalt';
   src: url(/fonts/Digitalt.ttf) format('truetype'), 
-      url(/fonts/Digitalt.otf) format('opentype');
+  url(/fonts/Digitalt.otf) format('opentype');
 }
 @font-face {
   font-family:'torquality';
@@ -37,7 +37,9 @@ html{
   --cor05:#0b1252;
   --cor07:black;
   --cor08: #ceccb7;
-
+  --fuschia: #ff0043;
+  
+  
   /* Fontes do Projeto */
   --font-padrao: Arial, Verdana, Helvetica, sans-serif;
   --font-destaque: 'Digitalt', cursive;
@@ -226,3 +228,4 @@ th, tr, td {
 td.Item{
   text-align: center;
 }
+
