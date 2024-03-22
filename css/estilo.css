@@ -120,7 +120,7 @@ main p{
   text-align: justify;
 }
 section h1{
-  background-image: linear-gradient(to right, var(--cor05),white);
+  background-image: linear-gradient(to right, var(--cor05), white);
   color: var(--cor00);
   padding: 10px;
 }
@@ -138,9 +138,9 @@ section p{
 section {
   background-color: lightgray;
   text-align: justify;
-  max-width: .9vw;
+  max-width: 90vw;
   min-width: 100vh;
-  margin: auto;
+  margin: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 10px;
@@ -167,6 +167,7 @@ footer a{
   border: 1px solid lightgrey;
   box-shadow: 1px 1px 5px black;
 }
+
 footer p{
   display: inline-block;
   width: 85vw;
@@ -181,19 +182,23 @@ footer p{
 .tc176{
   margin: 10px;
 }
+
 .tc176 a{
   display:block;
   margin-bottom: 30px;
 }
+
 .tc176 iframe{
   width: 500px;
   height: 600px;
   scroll-margin: auto;
   border: 1px solid #000;
 }
+
 .tc207 a{
   display:block;
 }
+
 .tc207 iframe{
   width: 500px;
   height: 600px;
@@ -205,8 +210,23 @@ ol > li {
   text-align: justify;
   margin-left: 40px;
 }
+
 ul >li {
     margin-left: 40px;
+}
+section.requisitos {
+  background-color: lightgray;
+  text-align: justify;
+  max-width: 80vw;
+  min-width: 100vh;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 20px 0px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.76);
 }
 table#Forms{
   width: 700px;
@@ -215,11 +235,14 @@ table#Forms{
   box-shadow: 2px 2px 5px black;
   position: relative;
 }
+
 thead>tr>th{
   background-color: var(--cor00);
 }
+
 tbody>tr:nth-child(even){
   background-color: var(--cor08);
+    ;
 }
 th, tr, td {
   border: 1px solid gray;
